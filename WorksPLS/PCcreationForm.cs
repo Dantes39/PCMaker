@@ -349,5 +349,15 @@ namespace WorksPLS
                 }
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (listBoxInfo.SelectedItem is Computer selectedComputer)
+            {
+                selectedComputer.Ram.CleanCache();
+                selectedComputer.Hdd.CleanCache();
+                MessageBox.Show("Кеш успешно очищен!");
+            }
+        }
     }
 }

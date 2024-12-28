@@ -57,14 +57,16 @@
             this.buttonDeleteComputer = new System.Windows.Forms.Button();
             this.buttonSorting = new System.Windows.Forms.Button();
             this.buttonCheckVirus = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.richTextBoxArray1)).BeginInit();
             this.SuspendLayout();
             // 
             // richTextBoxInfo
             // 
-            this.richTextBoxInfo.Location = new System.Drawing.Point(838, 93);
+            this.richTextBoxInfo.Location = new System.Drawing.Point(628, 76);
+            this.richTextBoxInfo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.richTextBoxInfo.Name = "richTextBoxInfo";
-            this.richTextBoxInfo.Size = new System.Drawing.Size(309, 480);
+            this.richTextBoxInfo.Size = new System.Drawing.Size(233, 391);
             this.richTextBoxInfo.TabIndex = 0;
             this.richTextBoxInfo.Text = "";
             // 
@@ -72,9 +74,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.label1.Location = new System.Drawing.Point(21, 16);
+            this.label1.Location = new System.Drawing.Point(16, 13);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(312, 36);
+            this.label1.Size = new System.Drawing.Size(250, 29);
             this.label1.TabIndex = 1;
             this.label1.Text = "Сборка Компьютера";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -82,17 +85,18 @@
             // listBoxInfo
             // 
             this.listBoxInfo.FormattingEnabled = true;
-            this.listBoxInfo.ItemHeight = 16;
-            this.listBoxInfo.Location = new System.Drawing.Point(479, 93);
+            this.listBoxInfo.Location = new System.Drawing.Point(359, 76);
+            this.listBoxInfo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.listBoxInfo.Name = "listBoxInfo";
-            this.listBoxInfo.Size = new System.Drawing.Size(309, 484);
+            this.listBoxInfo.Size = new System.Drawing.Size(233, 394);
             this.listBoxInfo.TabIndex = 2;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(28, 598);
+            this.button1.Location = new System.Drawing.Point(21, 486);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(413, 49);
+            this.button1.Size = new System.Drawing.Size(310, 40);
             this.button1.TabIndex = 3;
             this.button1.Text = "Добавить устройство";
             this.button1.UseVisualStyleBackColor = true;
@@ -102,187 +106,208 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.label2.Location = new System.Drawing.Point(27, 71);
+            this.label2.Location = new System.Drawing.Point(20, 58);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(173, 25);
+            this.label2.Size = new System.Drawing.Size(141, 20);
             this.label2.TabIndex = 4;
             this.label2.Text = "Процессор CPU";
             // 
             // textBoxCPU
             // 
-            this.textBoxCPU.Location = new System.Drawing.Point(29, 103);
+            this.textBoxCPU.Location = new System.Drawing.Point(22, 84);
+            this.textBoxCPU.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxCPU.Name = "textBoxCPU";
             this.textBoxCPU.ReadOnly = true;
-            this.textBoxCPU.Size = new System.Drawing.Size(283, 22);
+            this.textBoxCPU.Size = new System.Drawing.Size(213, 20);
             this.textBoxCPU.TabIndex = 5;
             // 
             // buttonSetCPU
             // 
-            this.buttonSetCPU.Location = new System.Drawing.Point(350, 103);
+            this.buttonSetCPU.Location = new System.Drawing.Point(262, 84);
+            this.buttonSetCPU.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonSetCPU.Name = "buttonSetCPU";
-            this.buttonSetCPU.Size = new System.Drawing.Size(92, 23);
+            this.buttonSetCPU.Size = new System.Drawing.Size(69, 19);
             this.buttonSetCPU.TabIndex = 6;
             this.buttonSetCPU.Text = "Выбрать";
             this.buttonSetCPU.UseVisualStyleBackColor = true;
             // 
             // buttonSetRAM
             // 
-            this.buttonSetRAM.Location = new System.Drawing.Point(350, 172);
+            this.buttonSetRAM.Location = new System.Drawing.Point(262, 140);
+            this.buttonSetRAM.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonSetRAM.Name = "buttonSetRAM";
-            this.buttonSetRAM.Size = new System.Drawing.Size(92, 23);
+            this.buttonSetRAM.Size = new System.Drawing.Size(69, 19);
             this.buttonSetRAM.TabIndex = 9;
             this.buttonSetRAM.Text = "Выбрать";
             this.buttonSetRAM.UseVisualStyleBackColor = true;
             // 
             // textBoxRAM
             // 
-            this.textBoxRAM.Location = new System.Drawing.Point(29, 172);
+            this.textBoxRAM.Location = new System.Drawing.Point(22, 140);
+            this.textBoxRAM.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxRAM.Name = "textBoxRAM";
             this.textBoxRAM.ReadOnly = true;
-            this.textBoxRAM.Size = new System.Drawing.Size(283, 22);
+            this.textBoxRAM.Size = new System.Drawing.Size(213, 20);
             this.textBoxRAM.TabIndex = 8;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.label3.Location = new System.Drawing.Point(27, 139);
+            this.label3.Location = new System.Drawing.Point(20, 113);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(285, 25);
+            this.label3.Size = new System.Drawing.Size(236, 20);
             this.label3.TabIndex = 7;
             this.label3.Text = "Оперативная Память RAM";
             // 
             // buttonCreateComputer
             // 
-            this.buttonCreateComputer.Location = new System.Drawing.Point(27, 524);
+            this.buttonCreateComputer.Location = new System.Drawing.Point(20, 426);
+            this.buttonCreateComputer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonCreateComputer.Name = "buttonCreateComputer";
-            this.buttonCreateComputer.Size = new System.Drawing.Size(414, 49);
+            this.buttonCreateComputer.Size = new System.Drawing.Size(310, 40);
             this.buttonCreateComputer.TabIndex = 10;
             this.buttonCreateComputer.Text = "Создать компьтер";
             this.buttonCreateComputer.UseVisualStyleBackColor = true;
             // 
             // buttonShowComputers
             // 
-            this.buttonShowComputers.Location = new System.Drawing.Point(477, 29);
+            this.buttonShowComputers.Location = new System.Drawing.Point(358, 24);
+            this.buttonShowComputers.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonShowComputers.Name = "buttonShowComputers";
-            this.buttonShowComputers.Size = new System.Drawing.Size(311, 49);
+            this.buttonShowComputers.Size = new System.Drawing.Size(233, 40);
             this.buttonShowComputers.TabIndex = 11;
             this.buttonShowComputers.Text = "Показать компьтеры";
             this.buttonShowComputers.UseVisualStyleBackColor = true;
             // 
             // buttonSetHDD
             // 
-            this.buttonSetHDD.Location = new System.Drawing.Point(350, 245);
+            this.buttonSetHDD.Location = new System.Drawing.Point(262, 199);
+            this.buttonSetHDD.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonSetHDD.Name = "buttonSetHDD";
-            this.buttonSetHDD.Size = new System.Drawing.Size(92, 23);
+            this.buttonSetHDD.Size = new System.Drawing.Size(69, 19);
             this.buttonSetHDD.TabIndex = 14;
             this.buttonSetHDD.Text = "Выбрать";
             this.buttonSetHDD.UseVisualStyleBackColor = true;
             // 
             // textBoxHDD
             // 
-            this.textBoxHDD.Location = new System.Drawing.Point(29, 245);
+            this.textBoxHDD.Location = new System.Drawing.Point(22, 199);
+            this.textBoxHDD.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxHDD.Name = "textBoxHDD";
             this.textBoxHDD.ReadOnly = true;
-            this.textBoxHDD.Size = new System.Drawing.Size(283, 22);
+            this.textBoxHDD.Size = new System.Drawing.Size(213, 20);
             this.textBoxHDD.TabIndex = 13;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.label4.Location = new System.Drawing.Point(27, 212);
+            this.label4.Location = new System.Drawing.Point(20, 172);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(212, 25);
+            this.label4.Size = new System.Drawing.Size(171, 20);
             this.label4.TabIndex = 12;
             this.label4.Text = "Жёсткий Диск HDD";
             // 
             // buttonSetGPU
             // 
-            this.buttonSetGPU.Location = new System.Drawing.Point(350, 319);
+            this.buttonSetGPU.Location = new System.Drawing.Point(262, 259);
+            this.buttonSetGPU.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonSetGPU.Name = "buttonSetGPU";
-            this.buttonSetGPU.Size = new System.Drawing.Size(92, 23);
+            this.buttonSetGPU.Size = new System.Drawing.Size(69, 19);
             this.buttonSetGPU.TabIndex = 17;
             this.buttonSetGPU.Text = "Выбрать";
             this.buttonSetGPU.UseVisualStyleBackColor = true;
             // 
             // textBoxGPU
             // 
-            this.textBoxGPU.Location = new System.Drawing.Point(29, 319);
+            this.textBoxGPU.Location = new System.Drawing.Point(22, 259);
+            this.textBoxGPU.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxGPU.Name = "textBoxGPU";
             this.textBoxGPU.ReadOnly = true;
-            this.textBoxGPU.Size = new System.Drawing.Size(283, 22);
+            this.textBoxGPU.Size = new System.Drawing.Size(213, 20);
             this.textBoxGPU.TabIndex = 16;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.label5.Location = new System.Drawing.Point(27, 286);
+            this.label5.Location = new System.Drawing.Point(20, 232);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(183, 25);
+            this.label5.Size = new System.Drawing.Size(155, 20);
             this.label5.TabIndex = 15;
             this.label5.Text = "Видеокарта GPU";
             // 
             // buttonSetMotherboard
             // 
-            this.buttonSetMotherboard.Location = new System.Drawing.Point(350, 394);
+            this.buttonSetMotherboard.Location = new System.Drawing.Point(262, 320);
+            this.buttonSetMotherboard.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonSetMotherboard.Name = "buttonSetMotherboard";
-            this.buttonSetMotherboard.Size = new System.Drawing.Size(92, 23);
+            this.buttonSetMotherboard.Size = new System.Drawing.Size(69, 19);
             this.buttonSetMotherboard.TabIndex = 20;
             this.buttonSetMotherboard.Text = "Выбрать";
             this.buttonSetMotherboard.UseVisualStyleBackColor = true;
             // 
             // textBoxMotherboard
             // 
-            this.textBoxMotherboard.Location = new System.Drawing.Point(29, 394);
+            this.textBoxMotherboard.Location = new System.Drawing.Point(22, 320);
+            this.textBoxMotherboard.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxMotherboard.Name = "textBoxMotherboard";
             this.textBoxMotherboard.ReadOnly = true;
-            this.textBoxMotherboard.Size = new System.Drawing.Size(283, 22);
+            this.textBoxMotherboard.Size = new System.Drawing.Size(213, 20);
             this.textBoxMotherboard.TabIndex = 19;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.label6.Location = new System.Drawing.Point(27, 361);
+            this.label6.Location = new System.Drawing.Point(20, 293);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(253, 25);
+            this.label6.Size = new System.Drawing.Size(211, 20);
             this.label6.TabIndex = 18;
             this.label6.Text = "Материнская Плата MB";
             // 
             // buttonSetPowerSupply
             // 
-            this.buttonSetPowerSupply.Location = new System.Drawing.Point(349, 470);
+            this.buttonSetPowerSupply.Location = new System.Drawing.Point(262, 382);
+            this.buttonSetPowerSupply.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonSetPowerSupply.Name = "buttonSetPowerSupply";
-            this.buttonSetPowerSupply.Size = new System.Drawing.Size(92, 23);
+            this.buttonSetPowerSupply.Size = new System.Drawing.Size(69, 19);
             this.buttonSetPowerSupply.TabIndex = 23;
             this.buttonSetPowerSupply.Text = "Выбрать";
             this.buttonSetPowerSupply.UseVisualStyleBackColor = true;
             // 
             // textBoxPowerSupply
             // 
-            this.textBoxPowerSupply.Location = new System.Drawing.Point(28, 470);
+            this.textBoxPowerSupply.Location = new System.Drawing.Point(21, 382);
+            this.textBoxPowerSupply.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxPowerSupply.Name = "textBoxPowerSupply";
             this.textBoxPowerSupply.ReadOnly = true;
-            this.textBoxPowerSupply.Size = new System.Drawing.Size(283, 22);
+            this.textBoxPowerSupply.Size = new System.Drawing.Size(213, 20);
             this.textBoxPowerSupply.TabIndex = 22;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.label7.Location = new System.Drawing.Point(26, 437);
+            this.label7.Location = new System.Drawing.Point(20, 355);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(204, 25);
+            this.label7.Size = new System.Drawing.Size(170, 20);
             this.label7.TabIndex = 21;
             this.label7.Text = "Блок Питания PSU";
             // 
             // buttonDeleteComputer
             // 
-            this.buttonDeleteComputer.Location = new System.Drawing.Point(479, 598);
+            this.buttonDeleteComputer.Location = new System.Drawing.Point(359, 486);
+            this.buttonDeleteComputer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonDeleteComputer.Name = "buttonDeleteComputer";
-            this.buttonDeleteComputer.Size = new System.Drawing.Size(311, 49);
+            this.buttonDeleteComputer.Size = new System.Drawing.Size(233, 40);
             this.buttonDeleteComputer.TabIndex = 24;
             this.buttonDeleteComputer.Text = "Удалить компьютер";
             this.buttonDeleteComputer.UseVisualStyleBackColor = true;
@@ -290,9 +315,10 @@
             // 
             // buttonSorting
             // 
-            this.buttonSorting.Location = new System.Drawing.Point(479, 666);
+            this.buttonSorting.Location = new System.Drawing.Point(359, 541);
+            this.buttonSorting.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonSorting.Name = "buttonSorting";
-            this.buttonSorting.Size = new System.Drawing.Size(311, 49);
+            this.buttonSorting.Size = new System.Drawing.Size(233, 40);
             this.buttonSorting.TabIndex = 25;
             this.buttonSorting.Text = "Рекомендация деталей";
             this.buttonSorting.UseVisualStyleBackColor = true;
@@ -300,19 +326,32 @@
             // 
             // buttonCheckVirus
             // 
-            this.buttonCheckVirus.Location = new System.Drawing.Point(838, 598);
+            this.buttonCheckVirus.Location = new System.Drawing.Point(628, 486);
+            this.buttonCheckVirus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonCheckVirus.Name = "buttonCheckVirus";
-            this.buttonCheckVirus.Size = new System.Drawing.Size(309, 49);
+            this.buttonCheckVirus.Size = new System.Drawing.Size(232, 40);
             this.buttonCheckVirus.TabIndex = 26;
             this.buttonCheckVirus.Text = "Проверить компьтер на вирусы";
             this.buttonCheckVirus.UseVisualStyleBackColor = true;
             this.buttonCheckVirus.Click += new System.EventHandler(this.buttonCheckVirus_Click);
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(628, 541);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(233, 40);
+            this.button2.TabIndex = 27;
+            this.button2.Text = "Очистить кэш";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // PCcreationForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1237, 741);
+            this.ClientSize = new System.Drawing.Size(928, 602);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.buttonCheckVirus);
             this.Controls.Add(this.buttonSorting);
             this.Controls.Add(this.buttonDeleteComputer);
@@ -340,6 +379,7 @@
             this.Controls.Add(this.listBoxInfo);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.richTextBoxInfo);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "PCcreationForm";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.richTextBoxArray1)).EndInit();
@@ -377,6 +417,7 @@
         private System.Windows.Forms.Button buttonDeleteComputer;
         private System.Windows.Forms.Button buttonSorting;
         private System.Windows.Forms.Button buttonCheckVirus;
+        private System.Windows.Forms.Button button2;
     }
 }
 
